@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">  
+  <title>Nos contate</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>  
+  <header>
+    <div class="caixa">
+      <h1><img src ="./img/logo.png" alt = "Logo da Barbearia Alura"></h1>
+      <nav>
+        <ul>
+          <li><a href ="index.html">Inicio</a></li>
+          <li><a href = "servicos.html">Serviços</a></li>
+          <li><a href = "contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <form>
+      <label for = "nomecompleto">Nome Completo</label>
+      <input type = "text" id = "nomecompleto" class = "input" required>
+      <label for = "email">E-mail</label>
+      <input type = "email" id = "email" class = "input" required placeholder = "xxxxxxx@xxxxxx.com">
+      <label for = "celular">Celular</label>
+      <input type = "cel" id = "celular" class = "input" required placeholder = "(DDD) x xxxxxxxx"></input>
+      <fieldset>
+        <br>
+        <desc>Qual horário podemos te chamar?</desc>
+        <select>
+          <option>Dia</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+      </fieldset>
+    </form>
+    <table>
+      <h2>Nossos horários</h2>
+      <hhead>
+        <tr>
+          <th>Dia</th>
+          <th>Hora</th>
+        </tr>        
+      </hhead>
+      <hbody>   
+        <tr>
+          <td>Terça</td>
+          <td>09h - 19h</td>
+        </tr>
+        <tr>
+          <td>Quarta</td>
+          <td>09h - 19h</td>
+        </tr>
+        <tr>
+          <td>Quinta</td>
+          <td>09h - 19h</td>
+        </tr>
+      </hbody>     
+    </table>  
+  </main>
+  <footer>
+    <img src ="./img/logobarba.png" alt = "Logo Alura">
+    <p class = "copyright">&copy; Copyright Barbearia Alura</p>
+  </footer>
+</body>
+</html>

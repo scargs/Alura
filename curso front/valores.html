@@ -1,0 +1,20 @@
+<script>
+  function jump() {
+    document.write('<br>')
+    document.write('<br>')
+  }
+  function open (tudo) {
+    document.write(tudo)
+    jump()
+  }
+  var totaly = parseInt(prompt('Quantas pessoas?'))
+  var number = 1
+  var ttage = 0
+  while (number <= totaly) {
+    var age = parseInt(prompt('Informe idade do familiar'))
+    media = ttage + age
+    number++
+  }
+  var media = ttage / totaly
+  open('A média das idades de todos foi '+ media)
+</script>

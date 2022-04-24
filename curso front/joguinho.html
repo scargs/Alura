@@ -1,0 +1,16 @@
+<canvas width="600" height="500"></canvas>
+<script>
+    var telinha = document.querySelector("canvas");
+    var pincel = telinha.getContext("2d");
+    function desenhe(xa, ya, xc, yc,cor){
+    pincel.fillStyle = cor;
+    pincel.beginPath();   
+    pincel.moveTo(xa,ya);            
+    pincel.lineTo(xa,yc);
+    pincel.lineTo(xc,yc);
+    pincel.fill(); }
+    desenhe(50,50,400,400, "blue");
+    desenhe(100, 175, 275, 350, "red");
+</script>
+
+ 

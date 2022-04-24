@@ -1,0 +1,26 @@
+<meta charset="UTF-8" />
+
+<script>
+  var login = 'alura'
+  var senha = '1234'
+  var tentativas = 3
+  var tentativagora = 1
+  while (tentativaagora <= tentativas) {
+    var loginInformado = prompt('Informe seu login')
+    var senhaInformada = prompt('Informe sua senha')
+    if (
+      login == loginInformado &&
+      senha == senhaInformada
+    ) {
+      alert('Bem-vinda, ' + loginInformado)
+      tentativaagora = tentativas
+    } else {
+      if (tentativaagora == 5) {
+        alert('Tentativas ultrapassadas!')
+      } else {
+        alert('Inválido. tente de novo')
+      }
+    }
+    tentativaagora = tentativaagora + 1
+  }
+</script>
